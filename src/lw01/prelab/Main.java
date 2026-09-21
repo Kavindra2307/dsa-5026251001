@@ -12,8 +12,6 @@ public class Main {
             String type = sc.next();
             String id = sc.next();
             int pages = sc.nextInt();
-            // int copies = sc.nextInt();
-            // There is no copies in the input file
 
             if (type.equals("MONO")) {
                 jobs.add(new MonoPrint(id, pages));

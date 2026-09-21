@@ -6,10 +6,12 @@ public class MonoPrint extends PrintJob {
         super(id, pages);
     }
 
+    @Override 
     public int calculateCharge() {
-        return pages * 500; 
+        return getPages() * 500; 
     }
 
+    @Override 
     public String label() {
         return "Mono";
     }
