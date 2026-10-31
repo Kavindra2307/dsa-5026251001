@@ -60,7 +60,7 @@ public class Main {
             }
         }
         
-        System.out.println("===== Enrollment Checks");
+        System.out.println("===== Enrollment Checks =====");
         for (String result : checkResults) {
             System.out.println(result);
         }
