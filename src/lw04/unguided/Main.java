@@ -24,8 +24,6 @@ public class Main {
             requests[i] = scanner.nextInt();
         }
 
-        scanner.close();
-
         sortCards(cards, 2);
 
         for (int i = 0; i < cards.length; i++) {
