@@ -61,7 +61,7 @@ public class Main {
                 int newDist = dist[current] + graph[current][next];
                 if (graph[current][next] > 0 && newDist < dist[next]) {        // the new distance is shorter
                     dist[next] = newDist;
-                    prev[next] = current;                                      // remember that next is reached from current
+                    prev[next] = current;                                    // remember that next is reached from current
                 }
             }
         }
